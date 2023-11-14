@@ -46,10 +46,10 @@ Check out the data in `recipea-data.json` to see what that looks like.
 
 ### Requirements
 
-- [ ] Create a JavaScript file to run your code.
-- [ ] Create a `read` command that will read all recipes from the data file and log them to the console.
-- [ ] Create a `read` command that will read a single recipe from the data file and log it to the console.
-- [ ] Create a `create` command that will create a new recipe and add it to the data file.
+- [x ] Create a JavaScript file to run your code.
+- [x ] Create a `read` command that will read all recipes from the data file and log them to the console.
+- [x] Create a `read` command that will read a single recipe from the data file and log it to the console.
+- [x ] Create a `create` command that will create a new recipe and add it to the data file.
 
 ### Resources
 
