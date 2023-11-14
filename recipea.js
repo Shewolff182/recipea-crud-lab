@@ -29,10 +29,10 @@ function readSingleRecipe(id) {
 }
 
 function saveRecipe(newRecipe) {
-    fs.readfile("./recipea-data.json", "utf8", (err, data) => {
+    fs.readFile("./recipea-data.json", "utf8", (err, data) => {
         const recipes = JSON.parse(data);
         recipes.push(newRecipe);
-        const jsonVersion = JSON.stringify(notes, null, 2);
+        const jsonVersion = JSON.stringify(recipes, null, 2);
         fs.writeFile("./recipea-data.json", jsonVersion, "utf8", (err) => {
             console.log("Recipe was successfully created!");
         });
